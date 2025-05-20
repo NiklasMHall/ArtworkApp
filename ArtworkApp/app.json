@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "TDS200Exam",
+    "slug": "TDS200Exam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "owner": "niklasmhall",
+    "scheme": "tds200exam",
+    "extra": {
+      "clientId": "297444120872-vokgqqu1e2jm4m89ct2leacqd4lvv8n7.apps.googleusercontent.com",
+      "iosClientId": "297444120872-3da0vtlo62poqneqfr6tq80a87tldq6r.apps.googleusercontent.com"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.artvista.tds200exam"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.artvista.tds200exam"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-image-picker"
+    ]
+  }
+}
